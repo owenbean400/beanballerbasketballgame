@@ -7,6 +7,15 @@
   width: 100%; 
 }
 
+#shooting{
+    border:none;
+    width:500px;
+    height:100px;
+    background-color:#330000;
+    color:white;
+    font-size:32px;
+}
+
 .slider {
   -webkit-appearance: none; 
   appearance: none;
@@ -62,7 +71,7 @@
 
     
 <div id="rightcontrol">
-    <button  id="shooting" onclick="shoot()">Shoot!</button>
+    <button  id="shooting" onclick="shoot()">Click Me To Shoot!</button>
 
     <p>Angle of Release: <span id="anglenum">0</span></p>
     <input type="range" min="0" max="90" value="45" class="slider" id="angle"/>
